@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Zipper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <h1>File Zipper & Compressor</h1>
+            <button id="themeToggle">🌙</button>
+        </div>
+
+        <div class="drop-zone" id="drop-zone">
+            <p>Drag & Drop your file here</p>
+            <p>or click to select file</p>
+            <input type="file" id="fileInput" hidden>
+        </div>
+
+        <div class="buttons">
+            <button id="compressBtn">Compress</button>
+            <button id="decompressBtn">Decompress</button>
+        </div>
+
+        <div id="spinner"></div>
+        <div id="status"></div>
+    </div>
+
+    <!-- Recent Files card -->
+    <div id="recentFiles">
+        <h3>Recent Files</h3>
+        <ul id="recentList"></ul>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
