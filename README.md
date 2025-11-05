@@ -1,7 +1,11 @@
 # 📦 File-Zipper
 
-File-Zipper is a simple and interactive web-based tool that allows users to upload multiple files and compress them into a single ZIP file.  
-Built with **HTML**, **CSS**, and **JavaScript**, it features a clean card-style UI with smooth animations for an intuitive experience.
+File-Zipper is a simple and interactive web-based tool that allows users to upload multiple files and compress them into a single ZIP file.
+Built with HTML, CSS, and JavaScript, it features a clean card-style UI with smooth animations for an intuitive experience.
+
+🚀 Core highlight:
+Behind the scenes, File-Zipper implements a Huffman Coding–based compression algorithm, demonstrating concepts of Data Structures and Algorithms (DSA) such as trees, priority queues, and bit manipulation.
+This makes it not just a web app, but also a practical application of algorithmic optimization and efficient data encoding.
 
 ---
 
