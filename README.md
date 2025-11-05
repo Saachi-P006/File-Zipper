@@ -25,7 +25,8 @@ Built with **HTML**, **CSS**, and **JavaScript**, it features a clean card-style
 
 ## 📸 Preview
 
-![File-Zipper Screenshot](assets/preview.png)
+<img width="1898" height="867" alt="image" src="https://github.com/user-attachments/assets/11e51ddb-a649-4d69-936a-b44c603e8025" />
+
 
 ---
 
